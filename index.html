@@ -5,6 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hodinový Manžel</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
   </head>
-  <body></body>
+  <style></style>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col d-none d-sm-block sm-2 logo">
+          <img src="./img/hammer.png" alt="" />
+        </div>
+        <div class="col-7 order-2 order-sm-3 d-sm-none dropdown--align_right">
+          <div class="dropdown">
+            <button class="dropdown_button"></button>
+            <div class="dropdown_content dropdown--align_left">
+              <a href="./index.html">Úvod</a>
+              <a href="./pages/sluzby.html">Služby</a>
+              <a href="./pages/o_mne.html" class="dropdown--text_together"
+                >O mně</a
+              >
+              <a href="./pages/kontakt.html">Kontakt</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-none d-sm-block menu">
+          <button><a href="./index.html">Úvod</a></button>
+          <button><a href="./pages/sluzby.html">Služby</a></button>
+          <a href="./pages/o_mne.html" class="dropdown--text_together">O mně</a>
+          <a href="./pages/kontakt.html">Kontakt</a>
+        </div>
+        <div class="col-5 col-sm-3">
+          <div class="row">
+            <div class="col-5">
+              <img
+                src="./img/blue-phone-small.jpg"
+                alt="Modrý telefon"
+                class="icon_phone"
+              />
+            </div>
+            <div class="col-7 phone_number">
+              <span><b>+420 733 709 121</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col"></div>
+      </div>
+    </div>
+  </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .dropbtn {
+        background-color: #4caf50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Dropdown Menu</h2>
+    <p>Move the mouse over the button to open the dropdown menu.</p>
+
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <p>
+      <strong>Note:</strong> We use href="#" for test links. In a real web site
+      this would be URLs.
+    </p>
+  </body>
+</html> -->

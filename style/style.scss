@@ -1,0 +1,73 @@
+.dropdown {
+  /* display: inline-block; */
+}
+.dropdown_button {
+  //   background-color: #4caf50;
+  background-color: blue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/menu_small.jpg");
+  border: none;
+}
+.dropdown_content {
+  display: none; // important for function
+  //   position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  //   z-index: 1;
+}
+.dropdown_content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown_content a {
+  display: block; // important for function
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown_content {
+  display: block; // important for function
+}
+.dropdown:hover .dropdown_button {
+  //   background-color: #3e8e41;
+  background-color: darkblue;
+}
+
+.dropdown_image {
+  width: 50px;
+  height: 50px;
+}
+.dropdown--align_right {
+  text-align: end;
+}
+.dropdown--align_left {
+  text-align: left;
+}
+.dropdown--text_together {
+  white-space: nowrap;
+}
+.icon_phone {
+  width: 50px;
+  height: 50px;
+}
+.phone {
+}
+.phone_number {
+  white-space: nowrap;
+  padding: 16px;
+  font-size: 16px;
+  color: red;
+}
+.logo {
+  padding: 16px;
+  font-size: 16px;
+}
+.menu {
+  padding: 16px;
+  font-size: 16px;
+}
+@import "menu.scss";
