@@ -18,9 +18,82 @@
     <div class="container">
       <div class="row">
         <div class="col d-none d-sm-block sm-2 logo">
-          <img src="./img/hammer.png" alt="" />
+          <div class="row">
+            <div class="col-12">
+              <img src="../img/logo.png" alt="Logo" />
+            </div>
+          </div>
         </div>
-        <div class="col-7 order-2 order-sm-3 d-sm-none dropdown--align_right">
+        <div
+          class="col-5 col-md-4 col-lg-4 d-none d-sm-block menu align-self-sm-end"
+        >
+          <div class="row" id="navbar">
+            <div class="col-3">
+              <a href="./index.html"
+                ><p><b>Úvod</b></p></a
+              >
+            </div>
+            <div class="col-3">
+              <a href="./pages/sluzby.html"
+                ><p><b>Služby</b></p></a
+              >
+            </div>
+            <div class="col-3">
+              <a href="./pages/o_mne.html" class="dropdown--text_together"
+                ><p><b>O mně</b></p></a
+              >
+            </div>
+
+            <div class="col-3">
+              <a href="./pages/kontakt.html"
+                ><p><b>Kontakt</b></p></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-sm-5 col-md-4 col-lg-3 order-3">
+          <div class="row justify-content-sm-center">
+            <div class="col-5 col-sm-3 col-xl-4 phone_padding">
+              <img
+                src="./img/blue-phone-small.jpg"
+                alt="Modrý telefon"
+                class="icon_phone"
+              />
+            </div>
+            <div
+              class="col-7 col-sm-8 col-xl-8 phone_number align-self-sm-center"
+            >
+              <span><b>+420 733 709 121</b></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 order-0 order-sm-3 d-sm-none">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown_content">
+              <a href="./index.html">Úvod</a>
+              <a href="./pages/sluzby.html">Služby</a>
+              <a href="./pages/o_mne.html" class="dropdown--text_together"
+                >O mně</a
+              >
+              <a href="./pages/kontakt.html">Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col d-none d-sm-block sm-2 logo">
+          <div class="row">
+            <div class="col-12">
+              <img src="./img/logo.png" alt="Logo" />
+            </div>
+          </div>
+        </div>
+        <div
+          id="navbar"
+          class="col-7 order-2 order-sm-3 d-sm-none dropdown--align_right"
+        >
           <div class="dropdown">
             <button class="dropdown_button"></button>
             <div class="dropdown_content dropdown--align_left">
@@ -33,98 +106,120 @@
             </div>
           </div>
         </div>
-        <div class="col-6 d-none d-sm-block menu">
-          <button><a href="./index.html">Úvod</a></button>
-          <button><a href="./pages/sluzby.html">Služby</a></button>
-          <a href="./pages/o_mne.html" class="dropdown--text_together">O mně</a>
-          <a href="./pages/kontakt.html">Kontakt</a>
+        <div
+          class="col-5 col-md-4 col-lg-4 d-none d-sm-block menu align-self-sm-end"
+        >
+          <div class="row" id="navbar">
+            <div class="col-3">
+              <a href="./index.html"
+                ><p><b>Úvod</b></p></a
+              >
+            </div>
+            <div class="col-3">
+              <a href="./pages/sluzby.html"
+                ><p><b>Služby</b></p></a
+              >
+            </div>
+            <div class="col-3">
+              <a href="./pages/o_mne.html" class="dropdown--text_together"
+                ><p><b>O mně</b></p></a
+              >
+            </div>
+
+            <div class="col-3">
+              <a href="./pages/kontakt.html"
+                ><p><b>Kontakt</b></p></a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-5 col-sm-3">
-          <div class="row">
-            <div class="col-5">
+        <div class="col-5 col-sm-5 col-md-4 col-lg-3">
+          <div class="row justify-content-sm-center">
+            <div class="col-5 col-sm-3 col-xl-4 phone_padding">
               <img
                 src="./img/blue-phone-small.jpg"
                 alt="Modrý telefon"
                 class="icon_phone"
               />
             </div>
-            <div class="col-7 phone_number">
+            <div
+              class="col-7 col-sm-8 col-xl-8 phone_number align-self-sm-center"
+            >
               <span><b>+420 733 709 121</b></span>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
-        <div class="col"></div>
+        <div class="col content">
+          <p class="content_h1"><b>Hodinový Manžel</b></p>
+          <p class="content_h1"><b>Luboš Havlík</b></p>
+          <p class="content_h2"><b>+420 733 709 121</b></p>
+          <p class="content_h2"><b>Mail@mail.cz</b><content_/pxt</p>
+          <hr size="8" width="70%" color="black" />
+          <p class="content_h2"><b>Cena Práce: xxx Kč/h</b></p>
+          <p class="content_h2"><b>Doprava po Brně: xxx Kč</b></p>
+          <p><b>Mimo Brno x Kč/km</b></p>
+        </div>
+      </div>
+      <div class="row contact">
+        <div class="col-12">
+          <p class="contact_writeme"><b>Napište mně</b></p>
+        </div>
+        <div class="col-12 contact_instruction">
+          Pokud se chcete na něco zeptat, nebo máte nějáké dotazy, neváhejte mi
+          napsat nebo zavolat.
+        </div>
+        <div class="col-12">
+          <form action="">
+            <input
+              type="text"
+              placeholder="Jméno"
+              required
+              class="contact_information"
+            />
+
+            <input
+              placeholder="Email"
+              type="text"
+              class="contact_information"
+              required
+            />
+            <br />
+
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Napište mi.."
+              class="contactform_text"
+              required
+            ></textarea>
+
+            <br />
+            <input class="contact_submit" type="submit" value="Odeslat" />
+          </form>
+        </div>
       </div>
     </div>
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown_content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
   </body>
 </html>
-
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      .dropbtn {
-        background-color: #4caf50;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-      }
-
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-      }
-
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-
-      .dropdown-content a:hover {
-        background-color: #f1f1f1;
-      }
-
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-
-      .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
-      }
-    </style>
-  </head>
-  <body>
-    <h2>Dropdown Menu</h2>
-    <p>Move the mouse over the button to open the dropdown menu.</p>
-
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
-
-    <p>
-      <strong>Note:</strong> We use href="#" for test links. In a real web site
-      this would be URLs.
-    </p>
-  </body>
-</html> -->

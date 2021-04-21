@@ -1,0 +1,28 @@
+.services--center {
+  text-align: center;
+}
+.services_h1 {
+  // margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .services_h1 {
+    font-size: $MainHeader;
+  }
+  .services_group {
+    font-size: $SecondaryHeader;
+  }
+  .services {
+    margin-top: $MainHeaderMargin;
+  }
+}
+.services_boxes {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: $MainHeaderMargin;
+  background-color: $Gray;
+}
+.services_group {
+  text-align: center;
+}

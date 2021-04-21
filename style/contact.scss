@@ -1,0 +1,23 @@
+.contact--center {
+  text-align: center;
+}
+.contact_h1 {
+  // margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contact_h1 {
+    font-size: $MainHeader;
+  }
+  //   .contact_info {
+  //     font-size: $SecondaryHeader;
+  //   }
+
+  .contact {
+    margin-top: $MainHeaderMargin;
+    margin-bottom: $MainHeaderMargin;
+  }
+}
+.contact_adress {
+  width: 30px;
+}

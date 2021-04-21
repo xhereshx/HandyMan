@@ -1,1 +1,103 @@
+.dropdown_button {
+  background-color: blue;
+  color: white;
+  padding: $MenuPadding;
+  font-size: $MenuFontSize;
+  width: $PictureSize;
+  height: $PictureSize;
+  background-image: url("../img/menu_small.jpg");
+  border: none;
+  cursor: pointer;
+}
 
+.dropdown:hover .dropdown_button {
+  //   background-color: #3e8e41;
+  background-color: darkblue;
+}
+
+.dropdown_image {
+  width: $PictureSize;
+  height: $PictureSize;
+}
+.dropdown--align_right {
+  text-align: end;
+}
+.dropdown--align_left {
+  text-align: left;
+}
+.dropdown--text_together {
+  white-space: nowrap;
+}
+.icon_phone {
+  width: $PictureSize;
+  height: $PictureSize;
+}
+.phone {
+}
+.phone_number {
+  white-space: nowrap;
+  padding: $MenuPadding;
+  font-size: $MenuFontSize;
+  color: blue;
+}
+.logo {
+  padding: $MenuPadding;
+  font-size: $MenuFontSize;
+}
+.menu {
+  padding: $MenuPadding;
+  font-size: $MenuFontSize;
+}
+@media screen and (min-width: 576px) {
+  .phone_padding {
+    padding: $MenuPadding;
+    font-size: $MenuFontSize;
+  }
+}
+
+// new code
+
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: $MenuPadding;
+  font-size: $MenuFontSize;
+  border: none;
+  cursor: pointer;
+  background-image: url("../img/menu_small.jpg");
+  width: $PictureSize;
+  height: $PictureSize;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: $Gray;
+  min-width: $DropMenuSize;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: $MenuPadding $MenuPadding;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}

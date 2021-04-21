@@ -1,1 +1,110 @@
-/* No CSS *//*# sourceMappingURL=menu.css.map */
+.dropdown_button {
+  background-color: blue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/menu_small.jpg");
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown_button {
+  background-color: darkblue;
+}
+
+.dropdown_image {
+  width: 50px;
+  height: 50px;
+}
+
+.dropdown--align_right {
+  text-align: end;
+}
+
+.dropdown--align_left {
+  text-align: left;
+}
+
+.dropdown--text_together {
+  white-space: nowrap;
+}
+
+.icon_phone {
+  width: 50px;
+  height: 50px;
+}
+
+.phone_number {
+  white-space: nowrap;
+  padding: 16px;
+  font-size: 16px;
+  color: blue;
+}
+
+.logo {
+  padding: 16px;
+  font-size: 16px;
+}
+
+.menu {
+  padding: 16px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 576px) {
+  .phone_padding {
+    padding: 16px;
+    font-size: 16px;
+  }
+}
+
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-image: url("../img/menu_small.jpg");
+  width: 50px;
+  height: 50px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+/*# sourceMappingURL=menu.css.map */

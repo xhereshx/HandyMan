@@ -4,9 +4,161 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
   </head>
+  <style></style>
   <body>
-    <p>Kontakt</p>
+    <div class="container">
+      <div class="row">
+        <div class="col d-none d-sm-block sm-2 logo">
+          <div class="row">
+            <div class="col-12">
+              <img src="../img/logo.png" alt="Logo" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-5 col-md-4 col-lg-4 d-none d-sm-block menu align-self-sm-end"
+        >
+          <div class="row" id="navbar">
+            <div class="col-3">
+              <a href="../index.html"
+                ><p><b>Úvod</b></p></a
+              >
+            </div>
+            <div class="col-3">
+              <a href="./sluzby.html"
+                ><p><b>Služby</b></p></a
+              >
+            </div>
+            <div class="col-3">
+              <a href="./o_mne.html" class="dropdown--text_together"
+                ><p><b>O mně</b></p></a
+              >
+            </div>
+
+            <div class="col-3">
+              <a href="./kontakt.html"
+                ><p><b>Kontakt</b></p></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-sm-5 col-md-4 col-lg-3 order-3">
+          <div class="row justify-content-sm-center">
+            <div class="col-5 col-sm-3 col-xl-4 phone_padding">
+              <img
+                src="../img/blue-phone-small.jpg"
+                alt="Modrý telefon"
+                class="icon_phone"
+              />
+            </div>
+            <div
+              class="col-7 col-sm-8 col-xl-8 phone_number align-self-sm-center"
+            >
+              <span><b>+420 733 709 121</b></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 order-0 order-sm-3 d-sm-none">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown_content">
+              <a href="../index.html">Úvod</a>
+              <a href="./sluzby.html">Služby</a>
+              <a href="./o_mne.html" class="dropdown--text_together">O mně</a>
+              <a href="./kontakt.html">Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 contact--center contact contact_h1">
+          <p><b>Kontakt</b></p>
+        </div>
+        <div class="col-12 col-sm-8" style="border: solid 1px black">
+          <b><p>test</p></b>
+        </div>
+        <div class="col-12 col-sm-4" style="border: solid 1px black">
+          <div class="row">
+            <div class="col-12 contact_info" style="margin-top: 1rem">
+              <p><b>Kontaktní Informace</b></p>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img
+                  src="../img/icon.png"
+                  alt="Adresa"
+                  title="Adresa"
+                  class="contact_adress"
+                />
+              </div>
+              <div class="col-11">Adresa</div>
+              <div class="col-1"></div>
+              <div class="col-11">Lubošova adresa</div>
+              <div class="col-1"></div>
+              <div class="col-11">Brno xy</div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+              <div class="col-1">
+                <img
+                  src="../img/icon.png"
+                  alt="Adresa"
+                  title="Adresa"
+                  class="contact_adress"
+                />
+              </div>
+              <div class="col-10">Telefon</div>
+              <div class="col-1"></div>
+              <div class="col-11">+420 733 709 121</div>
+            </div>
+            <br />
+            <br />
+            <!-- <div class="col-1">
+              <img
+                src="../img/icon.png"
+                alt="Adresa"
+                title="Adresa"
+                class="contact_adress"
+              />
+            </div>
+            <div class="col-11">Email</div>
+            <div class="col-12">email@email.cz</div> -->
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown_content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
   </body>
 </html>

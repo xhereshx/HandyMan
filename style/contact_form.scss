@@ -1,0 +1,72 @@
+@media screen and (max-width: 576px) {
+  .contact_submit {
+    width: 50%;
+    padding: $MenuPadding;
+    margin: $SubmitButtonMargin;
+    //   display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin: 0 0 25% 25%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .contact_submit {
+    width: 30%;
+    padding: $MenuPadding;
+    margin: $SubmitButtonMargin;
+    //   display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin: 0 0 35% 35%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact_writeme {
+    text-align: center;
+    font-size: $MainHeader;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact_information {
+    width: 49%;
+    padding: $MenuPadding;
+    margin: $SubmitButtonMargin;
+    // margin-left: 1%;
+    //   display: inline-block;
+    border: none;
+    background: $Gray;
+  }
+}
+
+.contact {
+  margin-top: $MainHeaderMargin;
+}
+.contact_writeme {
+  text-align: center;
+  // color: white;
+}
+.contact_information {
+  width: 49%;
+  padding: $MenuPadding;
+  margin-top: 5px;
+  margin-bottom: 22px;
+  // margin: 5px 0px 22px 0px;
+  // margin-left: 1%;
+  //   display: inline-block;
+  border: none;
+  background: $Gray;
+}
+.contactform_text {
+  width: 99%;
+  border: none;
+  background: $Gray;
+  padding: $MenuPadding;
+  margin: $SubmitButtonMargin;
+  height: 10rem;
+}
+.contact_instruction {
+  margin-bottom: 1rem;
+}

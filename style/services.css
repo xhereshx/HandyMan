@@ -1,0 +1,28 @@
+.services--center {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .services_h1 {
+    font-size: 32px;
+  }
+  .services_group {
+    font-size: 24px;
+  }
+  .services {
+    margin-top: 2rem;
+  }
+}
+
+.services_boxes {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 2rem;
+  background-color: #f1f1f1;
+}
+
+.services_group {
+  text-align: center;
+}
+/*# sourceMappingURL=services.css.map */
