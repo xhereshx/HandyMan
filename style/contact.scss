@@ -4,6 +4,10 @@
 .contact_h1 {
   // margin-bottom: 2rem;
 }
+.contact_boxes {
+  // border: solid 1px black;
+  background-color: $Gray;
+}
 
 @media screen and (min-width: 768px) {
   .contact_h1 {
@@ -19,5 +23,5 @@
   }
 }
 .contact_adress {
-  width: 30px;
+  width: 20px;
 }

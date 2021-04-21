@@ -84,56 +84,99 @@
         <div class="col-12 contact--center contact contact_h1">
           <p><b>Kontakt</b></p>
         </div>
-        <div class="col-12 col-sm-8" style="border: solid 1px black">
-          <b><p>test</p></b>
+        <div class="col-12 col-sm-8">
+          <form
+            action="https://formsubmit.co/rasticamichal@email.cz"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="http://sweb123.sweb.cz/pages/thanks.html"
+            />
+            <input type="hidden" name="_subject" value="Nový klient" />
+            <input
+              type="text"
+              placeholder="Jméno"
+              required
+              name="name"
+              class="contact_information"
+            />
+
+            <input
+              placeholder="Email"
+              type="text"
+              class="contact_information"
+              required
+              name="email"
+            />
+            <br />
+
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Napište mi.."
+              class="contactform_text"
+              required
+              name="text"
+            ></textarea>
+
+            <br />
+            <input class="contact_submit" value="Odeslat" type="submit" />
+          </form>
         </div>
-        <div class="col-12 col-sm-4" style="border: solid 1px black">
+        <div class="col-12 col-sm-4 contact_boxes">
           <div class="row">
             <div class="col-12 contact_info" style="margin-top: 1rem">
               <p><b>Kontaktní Informace</b></p>
             </div>
-            <div class="row">
-              <div class="col-1">
-                <img
-                  src="../img/icon.png"
-                  alt="Adresa"
-                  title="Adresa"
-                  class="contact_adress"
-                />
-              </div>
-              <div class="col-11">Adresa</div>
-              <div class="col-1"></div>
-              <div class="col-11">Lubošova adresa</div>
-              <div class="col-1"></div>
-              <div class="col-11">Brno xy</div>
-            </div>
-            <br />
-            <br />
-            <div class="row">
-              <div class="col-1">
-                <img
-                  src="../img/icon.png"
-                  alt="Adresa"
-                  title="Adresa"
-                  class="contact_adress"
-                />
-              </div>
-              <div class="col-10">Telefon</div>
-              <div class="col-1"></div>
-              <div class="col-11">+420 733 709 121</div>
-            </div>
-            <br />
-            <br />
-            <!-- <div class="col-1">
+          </div>
+
+          <div class="row">
+            <div class="col-1">
               <img
-                src="../img/icon.png"
+                src="../img/icon_small.png"
+                alt="Adresa"
+                title="Adresa"
+                class="contact_adress"
+                style="width: 20px; height: 20px"
+              />
+            </div>
+            <div class="col-10">Adresa</div>
+
+            <div class="col-10">Lubošova adresa</div>
+
+            <div class="col-12">Brno xy</div>
+
+            <br />
+            <br />
+
+            <div class="col-1">
+              <img
+                src="../img/telephone_small.jpg"
                 alt="Adresa"
                 title="Adresa"
                 class="contact_adress"
               />
             </div>
-            <div class="col-11">Email</div>
-            <div class="col-12">email@email.cz</div> -->
+            <div class="col-10">Telefon</div>
+
+            <div class="col-12">+420 733 709 121</div>
+
+            <br />
+            <br />
+
+            <div class="col-1">
+              <img
+                src="../img/email_small.png"
+                alt="Adresa"
+                title="Adresa"
+                class="contact_adress"
+                s
+              />
+            </div>
+            <div class="col-10">Email</div>
+            <div class="col-12">email@email.cz</div>
             <br />
             <br />
           </div>
