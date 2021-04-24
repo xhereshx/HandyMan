@@ -3,7 +3,22 @@
   padding-bottom: 3rem;
   // color: white;
   text-align: center;
-  background-image: url("../img/background-picture.jpg");
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("../img/background.jpg");
+
+  background-size: cover;
+  background-position: center bottom;
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // background-size: auto;
+  // color: blue;
+}
+.content::before {
+}
+.content_number {
+  color: black;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 576px) {
@@ -11,6 +26,10 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
     color: white;
+  }
+  .content_number {
+    color: white;
+    text-decoration: none;
   }
 }
 
