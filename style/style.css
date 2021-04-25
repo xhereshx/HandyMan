@@ -112,15 +112,36 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
+  position: relative;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content::before {
+  content: "";
   background-image: url("../img/background.jpg");
   background-size: cover;
-  background-position: center bottom;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+p {
+  position: relative;
+  color: black;
+  text-align: center;
 }
 
 .content_number {
-  color: black;
+  color: black !important;
   text-decoration: none;
 }
 
@@ -128,10 +149,9 @@
   .content {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    color: white;
   }
   .content_number {
-    color: white;
+    color: black !important;
     text-decoration: none;
   }
 }
@@ -146,6 +166,12 @@
   }
   .content_h1 {
     font-size: 32px;
+  }
+  .content::before {
+    opacity: 0.4;
+  }
+  .content_bigger {
+    font-size: 50px;
   }
 }
 
