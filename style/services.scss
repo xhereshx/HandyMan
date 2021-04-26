@@ -16,14 +16,194 @@
     font-size: $SecondaryHeader;
   }
 }
-.services_boxes {
-  padding-top: 1rem;
-  // border: 1px solid black;
-  // width: 200px;
-  // height: 200px;
-  margin: $MainHeaderMargin;
-  background-color: $Gray;
-}
 .services_group {
   text-align: center;
+}
+
+// services boxes, try to find better solution
+.services_boxes {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes::before {
+  content: "";
+  background-image: url("../img/lubos.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+// box one
+
+.services_boxes_one {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_one::before {
+  content: "";
+  background-image: url("../img/furniture_repair.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center bottom;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+// two not there
+
+// three
+
+.services_boxes_three {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_three::before {
+  content: "";
+  background-image: url("../img/tiles_laying.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+// four
+
+.services_boxes_four {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_four::before {
+  content: "";
+  background-image: url("../img/home_security.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: right center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+// five
+.services_boxes_five {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_five::before {
+  content: "";
+  background-image: url("../img/garden_job.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+// six
+.services_boxes_six {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_six::before {
+  content: "";
+  background-image: url("../img/home_repair.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+// seven
+
+.services_boxes_seven {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_seven::before {
+  content: "";
+  background-image: url("../img/poison.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+// eight
+
+.services_boxes_eight {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_eight::before {
+  content: "";
+  background-image: url("../img/furniture_painting.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
 }

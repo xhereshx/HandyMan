@@ -279,14 +279,216 @@
   }
 }
 
+.services_group {
+  text-align: center;
+}
+
 .services_boxes {
   padding-top: 1rem;
   margin: 2rem;
-  background-color: #f1f1f1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
 }
 
-.services_group {
-  text-align: center;
+.services_boxes::before {
+  content: "";
+  background-image: url("../img/lubos.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.services_boxes_one {
+  padding-top: 1rem;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_one::before {
+  content: "";
+  background-image: url("../img/furniture_repair.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center bottom;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.services_boxes_three {
+  padding-top: 1rem;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_three::before {
+  content: "";
+  background-image: url("../img/tiles_laying.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.services_boxes_four {
+  padding-top: 1rem;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_four::before {
+  content: "";
+  background-image: url("../img/home_security.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: right center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.services_boxes_five {
+  padding-top: 1rem;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_five::before {
+  content: "";
+  background-image: url("../img/garden_job.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.services_boxes_six {
+  padding-top: 1rem;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_six::before {
+  content: "";
+  background-image: url("../img/home_repair.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.services_boxes_seven {
+  padding-top: 1rem;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_seven::before {
+  content: "";
+  background-image: url("../img/poison.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.services_boxes_eight {
+  padding-top: 1rem;
+  margin: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.services_boxes_eight::before {
+  content: "";
+  background-image: url("../img/furniture_painting.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
 }
 
 .about--center {
