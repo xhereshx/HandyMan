@@ -5,7 +5,7 @@
   font-size: $MenuFontSize;
   width: $PictureSize;
   height: $PictureSize;
-  background-image: url("../img/menu_small.jpg");
+  background-image: url("../img/menu.png");
   border: none;
   cursor: pointer;
 }
@@ -58,19 +58,22 @@
 // new code
 
 .dropbtn {
-  background-color: #3498db;
-  color: white;
+  // background-color: #3498db;
+  // color: white;
+  background-color: white;
   padding: $MenuPadding;
   font-size: $MenuFontSize;
   border: none;
   cursor: pointer;
-  background-image: url("../img/menu_small.jpg");
+  background-image: url("../img/burger_menu.png");
   width: $PictureSize;
   height: $PictureSize;
+  width: 50px;
+  height: 50px;
 }
 .dropbtn:hover,
 .dropbtn:focus {
-  background-color: #2980b9;
+  // background-color: #2980b9;
 }
 
 .dropdown {

@@ -35,13 +35,14 @@
   opacity: 0.3;
 }
 
-p {
+.content--color {
   position: relative;
   color: black;
   // font-size: 14rem;
   // line-height: 0.9;
-  text-align: center;
+  // text-align: center;
 }
+
 .content_number {
   color: black !important;
   text-decoration: none;
@@ -75,5 +76,7 @@ p {
   }
   .content_bigger {
     font-size: 50px;
+    position: relative;
+    color: black;
   }
 }
