@@ -3,23 +3,43 @@
 }
 .about_h1 {
   // margin-bottom: 2rem;
+  font-size: 24px;
 }
 .about_boxes {
   // border: solid 1px black;
   background-color: $Gray;
+  padding-top: 2rem;
+  // padding-bottom: 2rem;
+}
+
+.about {
+  margin-top: $MainHeaderMargin;
 }
 
 @media screen and (min-width: 768px) {
   .about_h1 {
     font-size: $MainHeader;
   }
-
   .about {
     margin-top: $MainHeaderMargin;
-    margin-bottom: $MainHeaderMargin;
+    // margin-bottom: $MainHeaderMargin;
+  }
+  .about_boxes {
+    background-color: $Gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
 .about_picture {
-  width: 320px;
+  width: 100%;
 }
+
+.about--topPadding {
+  padding-top: 2rem;
+}
+// @media screen and (min-width: 992px) {
+//   .about_picture {
+//     width: 70%;
+//   }
+// }

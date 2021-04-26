@@ -5,7 +5,7 @@
   font-size: 16px;
   width: 50px;
   height: 50px;
-  background-image: url("../img/menu.png");
+  background-image: url("../img/menu_test.png");
   border: none;
   cursor: pointer;
 }
@@ -66,7 +66,7 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
-  background-image: url("../img/burger_menu.png");
+  background-image: url("../img/drop_down_menu.png");
   width: 50px;
   height: 50px;
   width: 50px;
@@ -104,6 +104,18 @@
   display: block;
 }
 
+.dropdown--margin {
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .phone_padding {
+    padding: 16px;
+    font-size: 16px;
+    text-align: right;
+  }
+}
+
 .content {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -116,6 +128,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.content_bigger {
+  font-size: 24px;
 }
 
 .content::before {
@@ -148,6 +164,7 @@
   .content_number {
     color: black !important;
     text-decoration: none;
+    padding-top: -1rem;
   }
 }
 
@@ -245,6 +262,14 @@
   text-align: center;
 }
 
+.services_h1 {
+  font-size: 24px;
+}
+
+.services {
+  margin-top: 2rem;
+}
+
 @media screen and (min-width: 768px) {
   .services_h1 {
     font-size: 32px;
@@ -252,12 +277,10 @@
   .services_group {
     font-size: 24px;
   }
-  .services {
-    margin-top: 2rem;
-  }
 }
 
 .services_boxes {
+  padding-top: 1rem;
   margin: 2rem;
   background-color: #f1f1f1;
 }
@@ -270,8 +293,17 @@
   text-align: center;
 }
 
+.about_h1 {
+  font-size: 24px;
+}
+
 .about_boxes {
   background-color: #f1f1f1;
+  padding-top: 2rem;
+}
+
+.about {
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -280,16 +312,28 @@
   }
   .about {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+  }
+  .about_boxes {
+    background-color: #f1f1f1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
 .about_picture {
-  width: 320px;
+  width: 100%;
+}
+
+.about--topPadding {
+  padding-top: 2rem;
 }
 
 .contact--center {
   text-align: center;
+}
+
+.contact_h1 {
+  font-size: 24px;
 }
 
 .contact_boxes {

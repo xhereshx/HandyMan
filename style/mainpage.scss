@@ -21,6 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+.content_bigger {
+  font-size: 24px;
+}
 
 .content::before {
   content: "";
@@ -57,6 +60,7 @@
   .content_number {
     color: black !important;
     text-decoration: none;
+    padding-top: -1rem;
   }
 }
 

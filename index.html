@@ -28,7 +28,7 @@
   </style>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row dropdown--margin">
         <div class="col d-none d-sm-block sm-2 logo">
           <div class="row">
             <div class="col-12">
@@ -57,7 +57,7 @@
             </div>
 
             <div class="col-3">
-              <a href="./pages/kontakt.html"
+              <a href="./pages/kontakt.html" class="dropdown--text_together"
                 ><p><b>Kontakt</b></p></a
               >
             </div>
@@ -91,15 +91,17 @@
               <a href="./pages/o_mne.html" class="dropdown--text_together"
                 >O mně</a
               >
-              <a href="./pages/kontakt.html">Kontakt</a>
+              <a class="dropdown--text_together" href="./pages/kontakt.html"
+                >Kontakt</a
+              >
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col content">
-          <p class="content_h1 content_bigger content--colorr">
+          <p class="content_h1 content_bigger content--color">
             <b>Hodinový Manžel</b>
           </p>
           <p class="content_h1 content--color"><b>Luboš Havlík</b></p>
@@ -172,12 +174,7 @@
         </div>
       </div>
     </div>
-    <footer>
-      <a target="_blank" href="undefined/icons/set/drag-list-down"
-        >Pull Down icon</a
-      >
-      icon by <a target="_blank" href="">Icons8</a>
-    </footer>
+
     <script>
       function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
