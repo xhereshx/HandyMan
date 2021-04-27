@@ -18,6 +18,7 @@
 }
 .services_group {
   text-align: center;
+  font-size: $SecondaryHeader;
 }
 
 // services boxes, try to find better solution
@@ -67,7 +68,27 @@
   opacity: 0.2;
 }
 // two not there
+.services_boxes_two {
+  padding-top: 1rem;
+  margin: $MainHeaderMargin;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
 
+.services_boxes_two::before {
+  content: "";
+  background-image: url("../img/lubos.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: 50% 20%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
 // three
 
 .services_boxes_three {

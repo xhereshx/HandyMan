@@ -5,9 +5,11 @@
   font-size: $MenuFontSize;
   width: $PictureSize;
   height: $PictureSize;
-  background-image: url("../img/menu_test.png");
+  // background-image: url("../img/menu_test.png");
+  background-image: url("https://img.icons8.com/material-two-tone/96/4a90e2/menu--v1.png");
   border: none;
   cursor: pointer;
+  // <img src="https://img.icons8.com/material-two-tone/96/4a90e2/menu--v1.png"/>
 }
 
 .dropdown:hover .dropdown_button {
@@ -66,7 +68,10 @@
   font-size: $MenuFontSize;
   border: none;
   cursor: pointer;
-  background-image: url("../img/drop_down_menu.png");
+  // background-image: url("../img/drop_down_menu.png");
+  background-image: url("https://img.icons8.com/material-two-tone/50/4a90e2/menu--v1.png");
+  // <img src="https://img.icons8.com/material-two-tone/96/4a90e2/menu--v1.png"/>
+  // <img src="https://img.icons8.com/material-two-tone/50/4a90e2/menu--v1.png"/>
   width: $PictureSize;
   height: $PictureSize;
   width: 50px;
