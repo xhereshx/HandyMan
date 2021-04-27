@@ -116,6 +116,10 @@
   }
 }
 
+.phone--align {
+  text-align: right;
+}
+
 .content {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -599,5 +603,9 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+}
+
+html {
+  overflow-y: scroll;
 }
 /*# sourceMappingURL=style.css.map */

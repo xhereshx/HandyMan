@@ -6,3 +6,6 @@
 @import "about.scss";
 @import "contact.scss";
 @import "thanks.scss";
+html {
+  overflow-y: scroll;
+}
