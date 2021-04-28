@@ -1,30 +1,5 @@
-.dropdown_button {
-  background-color: blue;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  width: 50px;
-  height: 50px;
-  background-image: url("https://img.icons8.com/material-two-tone/96/4a90e2/menu--v1.png");
-  border: none;
-  cursor: pointer;
-}
-
 .dropdown:hover .dropdown_button {
   background-color: darkblue;
-}
-
-.dropdown_image {
-  width: 50px;
-  height: 50px;
-}
-
-.dropdown--align_right {
-  text-align: end;
-}
-
-.dropdown--align_left {
-  text-align: left;
 }
 
 .dropdown--text_together {
@@ -40,7 +15,6 @@
   white-space: nowrap;
   padding: 16px;
   font-size: 16px;
-  color: blue;
 }
 
 .logo {
@@ -53,20 +27,13 @@
   font-size: 16px;
 }
 
-@media screen and (min-width: 576px) {
-  .phone_padding {
-    padding: 16px;
-    font-size: 16px;
-  }
-}
-
 .dropbtn {
   background-color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  background-image: url("https://img.icons8.com/material-two-tone/50/4a90e2/menu--v1.png");
+  background-image: url("../img/menu.png");
   width: 50px;
   height: 50px;
   width: 50px;
@@ -108,16 +75,16 @@
   padding-top: 1rem;
 }
 
-@media screen and (min-width: 1200px) {
-  .phone_padding {
-    padding: 16px;
-    font-size: 16px;
-    text-align: right;
-  }
-}
-
 .phone--align {
   text-align: right;
+}
+
+.dropdown_color a {
+  color: black;
+}
+
+.dropdown_color:hover a {
+  color: black;
 }
 
 .content {
@@ -193,6 +160,36 @@
   }
 }
 
+.contact {
+  margin-top: 2rem;
+}
+
+.contact_writeme {
+  text-align: center;
+}
+
+.contact_information {
+  width: 49%;
+  padding: 16px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.contactform_text {
+  width: 99%;
+  border: none;
+  background: #f1f1f1;
+  padding: 16px;
+  margin: 5px 0 22px 0;
+  height: 10rem;
+}
+
+.contact_instruction {
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 576px) {
   .contact_submit {
     width: 50%;
@@ -232,36 +229,6 @@
   }
 }
 
-.contact {
-  margin-top: 2rem;
-}
-
-.contact_writeme {
-  text-align: center;
-}
-
-.contact_information {
-  width: 49%;
-  padding: 16px;
-  margin-top: 5px;
-  margin-bottom: 22px;
-  border: none;
-  background: #f1f1f1;
-}
-
-.contactform_text {
-  width: 99%;
-  border: none;
-  background: #f1f1f1;
-  padding: 16px;
-  margin: 5px 0 22px 0;
-  height: 10rem;
-}
-
-.contact_instruction {
-  margin-bottom: 1rem;
-}
-
 .services--center {
   text-align: center;
 }
@@ -272,15 +239,6 @@
 
 .services {
   margin-top: 2rem;
-}
-
-@media screen and (min-width: 768px) {
-  .services_h1 {
-    font-size: 32px;
-  }
-  .services_group {
-    font-size: 24px;
-  }
 }
 
 .services_group {
@@ -522,6 +480,15 @@
   opacity: 0.2;
 }
 
+@media screen and (min-width: 768px) {
+  .services_h1 {
+    font-size: 32px;
+  }
+  .services_group {
+    font-size: 24px;
+  }
+}
+
 .about--center {
   text-align: center;
 }
@@ -539,6 +506,45 @@
   margin-top: 2rem;
 }
 
+.about_picture {
+  width: 100%;
+}
+
+.about--topPadding {
+  padding-top: 2rem;
+}
+
+.about_reasons {
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.color-one {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.color-two {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.color-three {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.color-four {
+  background-color: rgba(238, 130, 238, 0.5);
+}
+
+.color-five {
+  background-color: rgba(255, 165, 0, 0.5);
+}
+
+.color-six {
+  background-color: rgba(106, 90, 205, 0.5);
+}
+
 @media screen and (min-width: 768px) {
   .about_h1 {
     font-size: 32px;
@@ -553,14 +559,6 @@
   }
 }
 
-.about_picture {
-  width: 100%;
-}
-
-.about--topPadding {
-  padding-top: 2rem;
-}
-
 .contact--center {
   text-align: center;
 }
@@ -573,6 +571,15 @@
   background-color: #f1f1f1;
 }
 
+.contact_adress {
+  width: 20px;
+}
+
+.contact_anchors {
+  color: black !important;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .contact_h1 {
     font-size: 32px;
@@ -581,10 +588,6 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-}
-
-.contact_adress {
-  width: 20px;
 }
 
 .thanks--center {
@@ -607,5 +610,9 @@
 
 html {
   overflow-y: scroll;
+}
+
+li {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

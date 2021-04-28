@@ -2,33 +2,15 @@
   text-align: center;
 }
 .about_h1 {
-  // margin-bottom: 2rem;
   font-size: 24px;
 }
 .about_boxes {
-  // border: solid 1px black;
   background-color: $Gray;
   padding-top: 2rem;
-  // padding-bottom: 2rem;
 }
 
 .about {
   margin-top: $MainHeaderMargin;
-}
-
-@media screen and (min-width: 768px) {
-  .about_h1 {
-    font-size: $MainHeader;
-  }
-  .about {
-    margin-top: $MainHeaderMargin;
-    // margin-bottom: $MainHeaderMargin;
-  }
-  .about_boxes {
-    background-color: $Gray;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
 }
 
 .about_picture {
@@ -38,8 +20,42 @@
 .about--topPadding {
   padding-top: 2rem;
 }
-// @media screen and (min-width: 992px) {
-//   .about_picture {
-//     width: 70%;
-//   }
-// }
+
+.about_reasons {
+  background-color: rgba(256, 0, 0, 0.5);
+  margin: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.color-one {
+  background-color: rgba(256, 0, 0, 0.5);
+}
+.color-two {
+  background-color: rgba(0, 256, 0, 0.5);
+}
+.color-three {
+  background-color: rgba(0, 0, 256, 0.5);
+}
+.color-four {
+  background-color: rgba(238, 130, 238, 0.5);
+}
+.color-five {
+  background-color: rgba(255, 165, 0, 0.5);
+}
+.color-six {
+  background-color: rgba(106, 90, 205, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .about_h1 {
+    font-size: $MainHeader;
+  }
+  .about {
+    margin-top: $MainHeaderMargin;
+  }
+  .about_boxes {
+    background-color: $Gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}

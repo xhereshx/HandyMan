@@ -5,23 +5,24 @@
   font-size: 24px;
 }
 .contact_boxes {
-  // border: solid 1px black;
   background-color: $Gray;
 }
 
+.contact_adress {
+  width: 20px;
+}
+
+.contact_anchors {
+  color: black !important;
+  text-decoration: none;
+}
 @media screen and (min-width: 768px) {
   .contact_h1 {
     font-size: $MainHeader;
   }
-  //   .contact_info {
-  //     font-size: $SecondaryHeader;
-  //   }
 
   .contact {
     margin-top: $MainHeaderMargin;
     margin-bottom: $MainHeaderMargin;
   }
-}
-.contact_adress {
-  width: 20px;
 }

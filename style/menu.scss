@@ -1,32 +1,7 @@
-.dropdown_button {
-  background-color: blue;
-  color: white;
-  padding: $MenuPadding;
-  font-size: $MenuFontSize;
-  width: $PictureSize;
-  height: $PictureSize;
-  // background-image: url("../img/menu_test.png");
-  background-image: url("https://img.icons8.com/material-two-tone/96/4a90e2/menu--v1.png");
-  border: none;
-  cursor: pointer;
-  // <img src="https://img.icons8.com/material-two-tone/96/4a90e2/menu--v1.png"/>
-}
-
 .dropdown:hover .dropdown_button {
-  //   background-color: #3e8e41;
   background-color: darkblue;
 }
 
-.dropdown_image {
-  width: $PictureSize;
-  height: $PictureSize;
-}
-.dropdown--align_right {
-  text-align: end;
-}
-.dropdown--align_left {
-  text-align: left;
-}
 .dropdown--text_together {
   white-space: nowrap;
 }
@@ -34,13 +9,11 @@
   width: $PictureSize;
   height: $PictureSize;
 }
-.phone {
-}
+
 .phone_number {
   white-space: nowrap;
   padding: $MenuPadding;
   font-size: $MenuFontSize;
-  color: blue;
 }
 .logo {
   padding: $MenuPadding;
@@ -49,37 +22,22 @@
 .menu {
   padding: $MenuPadding;
   font-size: $MenuFontSize;
-  // margin-top: 2rem;
-}
-@media screen and (min-width: 576px) {
-  .phone_padding {
-    padding: $MenuPadding;
-    font-size: $MenuFontSize;
-  }
 }
 
 // new code
 
 .dropbtn {
-  // background-color: #3498db;
-  // color: white;
   background-color: white;
   padding: $MenuPadding;
   font-size: $MenuFontSize;
   border: none;
   cursor: pointer;
-  // background-image: url("../img/drop_down_menu.png");
-  background-image: url("https://img.icons8.com/material-two-tone/50/4a90e2/menu--v1.png");
-  // <img src="https://img.icons8.com/material-two-tone/96/4a90e2/menu--v1.png"/>
-  // <img src="https://img.icons8.com/material-two-tone/50/4a90e2/menu--v1.png"/>
+  // background-image: url("https://img.icons8.com/material-two-tone/50/4a90e2/menu--v1.png");
+  background-image: url("../img/menu.png");
   width: $PictureSize;
   height: $PictureSize;
   width: 50px;
   height: 50px;
-}
-.dropbtn:hover,
-.dropbtn:focus {
-  // background-color: #2980b9;
 }
 
 .dropdown {
@@ -113,13 +71,13 @@
 .dropdown--margin {
   padding-top: 1rem;
 }
-@media screen and (min-width: 1200px) {
-  .phone_padding {
-    padding: $MenuPadding;
-    font-size: $MenuFontSize;
-    text-align: right;
-  }
-}
+
 .phone--align {
   text-align: right;
+}
+.dropdown_color a {
+  color: black;
+}
+.dropdown_color:hover a {
+  color: black;
 }
