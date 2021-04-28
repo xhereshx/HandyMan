@@ -188,6 +188,7 @@
 
 .contact_instruction {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -543,6 +544,10 @@
 
 .color-six {
   background-color: rgba(106, 90, 205, 0.5);
+}
+
+.about_benefits {
+  background-color: #f1f1f1;
 }
 
 @media screen and (min-width: 768px) {
