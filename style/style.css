@@ -17,12 +17,6 @@
   font-size: 16px;
 }
 
-.logo {
-  background-image: url("../img/logo.png");
-  width: 50px;
-  height: auto;
-}
-
 .menu {
   padding: 16px;
   font-size: 16px;
@@ -169,8 +163,15 @@
   text-align: center;
 }
 
-.contact_information {
+.contact--width49 {
   width: 49%;
+}
+
+.contact--width99 {
+  width: 99%;
+}
+
+.contact_information {
   padding: 16px;
   margin-top: 5px;
   margin-bottom: 22px;
@@ -222,8 +223,8 @@
 }
 
 @media screen and (min-width: 992px) {
-  .contact_information {
-    width: 49%;
+  .contact_information.contact--width49 {
+    width: -webkit-calc(50% - 7px);
     padding: 16px;
     margin: 5px 0 22px 0;
     border: none;

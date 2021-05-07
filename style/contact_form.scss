@@ -4,8 +4,13 @@
 .contact_writeme {
   text-align: center;
 }
-.contact_information {
+.contact--width49 {
   width: 49%;
+}
+.contact--width99 {
+  width: 99%;
+}
+.contact_information {
   padding: $MenuPadding;
   margin-top: 5px;
   margin-bottom: 22px;
@@ -56,8 +61,8 @@
 }
 
 @media screen and (min-width: 992px) {
-  .contact_information {
-    width: 49%;
+  .contact_information.contact--width49 {
+    width: -webkit-calc(50% - 7px);
     padding: $MenuPadding;
     margin: $SubmitButtonMargin;
 

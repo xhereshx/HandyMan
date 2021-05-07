@@ -15,6 +15,16 @@
     <link rel = "icon" href = 
 "../img/logo.png" 
         type = "image/x-icon">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-196392227-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-196392227-1');
+</script>
   </head>
     
 
@@ -106,12 +116,17 @@
             >
           </p>
           <p class="content_h2 content--color">
+            <a href="tel:733-709-121" class="content_number"
+              ><b>IČO: 09744916</b></a
+            >
+          </p>
+          <p class="content_h2 content--color">
             <a href="mailto:hodinovymanzel.lh@outlook.cz" class="content_number"
               ><b>hodinovymanzel.lh@outlook.cz</b></a
             >
           </p>
           <hr size="8" width="70%" color="black" />
-          <p class="content_h2 content--color"><b>Cena Práce: 390 Kč/h</b></p>
+          <p class="content_h2 content--color"><b>Cena práce: 390 Kč/h</b></p>
           <p class="content_h2 content--color">
             <b>Doprava po Brně: Zdarma</b>
           </p>
@@ -139,20 +154,30 @@
             />
             <input type="hidden" name="_subject" value="Nový klient" />
             <input
+             
               type="text"
               placeholder="Jméno"
               required
               name="name"
-              class="contact_information"
+              class="contact_information contact--width99"
             />
 
-            <input
+            
+              <input
               placeholder="Email"
               type="text"
-              class="contact_information"
+              class="contact_information contact--width49"
               required
               name="email"
             />
+            <input
+              placeholder="Telefon"
+              type="text"
+              class="contact_information contact--width49"
+              required
+              name="telephone"
+            />
+            
             <br />
 
             <textarea
