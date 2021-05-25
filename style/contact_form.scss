@@ -17,6 +17,12 @@
   border: none;
   background: $Gray;
 }
+.contact_file:hover {
+  background-color: #e2e0e0;
+}
+input[type="file"] {
+  display: none;
+}
 .contactform_text {
   width: 99%;
   border: none;
@@ -29,6 +35,7 @@
   margin-bottom: 1rem;
   text-align: center;
 }
+
 @media screen and (max-width: 576px) {
   .contact_submit {
     width: 50%;

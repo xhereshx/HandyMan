@@ -179,6 +179,10 @@
   background: #f1f1f1;
 }
 
+.contact_file:hover {
+  background-color: #e2e0e0;
+}
+
 .contactform_text {
   width: 99%;
   border: none;
