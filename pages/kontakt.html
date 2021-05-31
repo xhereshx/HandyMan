@@ -114,7 +114,7 @@ Případně formulářem na stránce."
 
       <div class="row justify-content-center">
         <div class="col-12 contact--center contact contact_h1">
-          <p><b>Kontakt</b></p>
+          <p><b>Objednávka</b></p>
         </div>
         <div class="col-12 col-sm-8">
           <form
@@ -234,32 +234,7 @@ Případně formulářem na stránce."
       </div>
     </div>
 
-    <script>
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-
-      // Close the dropdown if the user clicks outside of it
-      window.onclick = function (event) {
-        if (!event.target.matches(".dropbtn")) {
-          var dropdowns = document.getElementsByClassName("dropdown_content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains("show")) {
-              openDropdown.classList.remove("show");
-            }
-          }
-        }
-      };
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-196392227-1");
-    </script>
+    <script src="./dropdown.js"></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-196392227-1"
