@@ -17,6 +17,10 @@
       crossorigin="anonymous"
     />
     <link rel="icon" href="../img/logo.png" type="image/x-icon" />
+    <link rel="prefetch" href="./pages/kontakt.html" />
+    <link rel="prefetch" href="./pages/o_mne.html" />
+    <link rel="prefetch" href="./pages/sluzby.html" />
+    <link rel="prefetch" href="./pages/thanks.html" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -199,6 +203,18 @@
               required
               name="text"
             ></textarea>
+            <p>
+              <input
+                type="checkbox"
+                required
+                name="Souhlas s VOP"
+                value="Ano"
+              />
+              Souhlasím s
+              <a href="./docs/vop-havlík.docx" download="VOP-Havlík.docx"
+                >Veřejnými obchodními podmínkami</a
+              >
+            </p>
             <!-- <label for="add_file" class="contact_information contact_file" > Vložte soubor</label>
             <input type="file" name="soubor" id="add_file" > -->
             <!-- code for file inserting, it is commented because it is not finished yet -->
@@ -210,7 +226,7 @@
       </div>
     </div>
 
-    <script src="./pages/dropdown.js"></script>
+    <script async src="./pages/dropdown.js"></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-196392227-1"

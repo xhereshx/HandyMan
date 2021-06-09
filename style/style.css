@@ -183,6 +183,10 @@
   background-color: #e2e0e0;
 }
 
+input[type="file"] {
+  display: none;
+}
+
 .contactform_text {
   width: 99%;
   border: none;
@@ -190,6 +194,7 @@
   padding: 16px;
   margin: 5px 0 22px 0;
   height: 10rem;
+  margin-bottom: 0px;
 }
 
 .contact_instruction {
