@@ -1,9 +1,7 @@
 .about--center {
   text-align: center;
 }
-.about_h1 {
-  font-size: 24px;
-}
+
 .about_boxes {
   background-color: $Gray;
   padding-top: 2rem;
@@ -48,10 +46,25 @@
 .about_benefits {
   background-color: $Gray;
 }
+.about_h1 {
+  font-size: $SecondaryHeader;
+  font-weight: bold;
+  display: block;
+  // margin: 1em 0;
+}
+// .about_h1 {
+//   font-size: $MainHeaderPhone;
+//   font-weight: bold;
+//   display: block;
+//   margin: 1em 0;
+// }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .about_h1 {
     font-size: $MainHeader;
+    font-weight: bold;
+    display: block;
+    // margin: 1em 0;
   }
   .about {
     margin-top: $MainHeaderMargin;
@@ -61,4 +74,4 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-}
+} //768px

@@ -60,15 +60,25 @@ input[type="file"] {
     margin: 0 35% 0 35%;
   }
 }
-
-@media screen and (min-width: 768px) {
-  .contact_writeme {
-    text-align: center;
-    font-size: $MainHeader;
-  }
+.contact_writeme {
+  text-align: center;
+  font-size: $MainHeaderPhone;
+  font-weight: bold;
+  display: block;
+  margin: 0.8em 0;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 48em) {
+  .contact_writeme {
+    // text-align: center;
+    font-size: $MainHeader;
+    font-weight: bold;
+    display: block;
+    // margin: 0.8em 0;
+  }
+} //768px
+
+@media screen and (min-width: 62em) {
   .contact_information.contact--width49 {
     width: -webkit-calc(50% - 7px);
     padding: $MenuPadding;
@@ -77,4 +87,4 @@ input[type="file"] {
     border: none;
     background: $Gray;
   }
-}
+} // 992px

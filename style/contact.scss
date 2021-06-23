@@ -16,13 +16,22 @@
   color: black !important;
   text-decoration: none;
 }
-@media screen and (min-width: 768px) {
+.contact_h1 {
+  font-size: $SecondaryHeader;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 0.5em 0;
+}
+@media screen and (min-width: 48em) {
   .contact_h1 {
     font-size: $MainHeader;
+    font-weight: bold;
+    display: block;
+    margin: 0;
   }
 
   .contact {
     margin-top: $MainHeaderMargin;
     margin-bottom: $MainHeaderMargin;
   }
-}
+} // 768px

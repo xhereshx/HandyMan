@@ -2,7 +2,10 @@
   text-align: center;
 }
 .services_h1 {
-  font-size: 24px;
+  font-size: $SecondaryHeader;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 1em 0;
 }
 .services {
   margin-top: $MainHeaderMargin;
@@ -220,11 +223,14 @@
   left: 0px;
   opacity: 0.2;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .services_h1 {
     font-size: $MainHeader;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 0.5em 0;
   }
   .services_group {
     font-size: $SecondaryHeader;
   }
-}
+} // 768px

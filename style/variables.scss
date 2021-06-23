@@ -1,5 +1,5 @@
-$MainHeader: 32px;
-$SecondaryHeader: 24px;
+$MainHeader: 2rem; //32px
+$SecondaryHeader: 1.5rem; //24px
 $MainHeaderMargin: 2rem;
 $Gray: #f1f1f1;
 $MenuPadding: 16px;
@@ -7,3 +7,14 @@ $MenuFontSize: 16px;
 $PictureSize: 50px;
 $DropMenuSize: 160px;
 $SubmitButtonMargin: 5px 0 22px 0;
+$MainHeaderPhone: 1rem;
+$SecondaryHeaderPhone: 1rem;
+// zkontrolovat jeslti proměnou MainHeader nepoužívám ještě někde jinde -- ok
+// každý dokument skopírovat class kde je fontsize-$MainHeader Mimo break points. Do nového class dát novou proměnou $MainHeaderPhone
+// to samé udělat i pro $SecondaryHeader
+// tohle udělat ve všech 6 scss dokumentech (about,contact_form,contact,mainpage,services,thanks)
+// v html dokumentech měnit p na h1 a h2
+// testing každé stránky
+// breakpointy dát do em
+
+// headery mají jiný top margin a padding než paragrahpy, proto to nedělá to co chci

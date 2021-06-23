@@ -97,7 +97,23 @@
 }
 
 .content_bigger {
-  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.content_h2 {
+  margin: 1em 0;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+}
+
+.content_h1 {
+  margin: 1em 0;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
 }
 
 .content::before {
@@ -122,7 +138,7 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 36em) {
   .content {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -134,22 +150,24 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .content {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
   .content_h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
+    margin: 1em 0;
   }
   .content_h1 {
-    font-size: 32px;
+    font-size: 2rem;
+    margin: 1em 0;
   }
   .content::before {
     opacity: 0.4;
   }
   .content_bigger {
-    font-size: 50px;
+    font-size: 3.125rem;
     position: relative;
     color: black;
   }
@@ -224,14 +242,23 @@ input[type="file"] {
   }
 }
 
-@media screen and (min-width: 768px) {
+.contact_writeme {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  margin: 0.8em 0;
+}
+
+@media screen and (min-width: 48em) {
   .contact_writeme {
-    text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 62em) {
   .contact_information.contact--width49 {
     width: -webkit-calc(50% - 7px);
     padding: 16px;
@@ -246,7 +273,10 @@ input[type="file"] {
 }
 
 .services_h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 1em 0;
 }
 
 .services {
@@ -255,7 +285,7 @@ input[type="file"] {
 
 .services_group {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .services_boxes {
@@ -492,21 +522,20 @@ input[type="file"] {
   opacity: 0.2;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .services_h1 {
-    font-size: 32px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 0.5em 0;
   }
   .services_group {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
 .about--center {
   text-align: center;
-}
-
-.about_h1 {
-  font-size: 24px;
 }
 
 .about_boxes {
@@ -561,9 +590,17 @@ input[type="file"] {
   background-color: #f1f1f1;
 }
 
-@media screen and (min-width: 768px) {
+.about_h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+@media screen and (min-width: 48em) {
   .about_h1 {
-    font-size: 32px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
   }
   .about {
     margin-top: 2rem;
@@ -596,9 +633,19 @@ input[type="file"] {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+.contact_h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 0.5em 0;
+}
+
+@media screen and (min-width: 48em) {
   .contact_h1 {
-    font-size: 32px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    margin: 0;
   }
   .contact {
     margin-top: 2rem;
@@ -611,12 +658,18 @@ input[type="file"] {
 }
 
 .thanks_h1 {
-  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  margin: 2em 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .thanks_h1 {
-    font-size: 32px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    margin: 1em 0;
   }
   .thanks {
     margin-top: 2rem;
